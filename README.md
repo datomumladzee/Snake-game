@@ -9,6 +9,7 @@ A modular Snake game built in **Python** using **Object-Oriented Programming (OO
 - Smooth grid-based snake movement
 - Random food spawning
 - Real-time score tracking
+- 💾 Persistent High Score saving (stored in a file)
 - Wall collision detection
 - Self-collision detection
 - Clean modular OOP structure
@@ -20,6 +21,7 @@ A modular Snake game built in **Python** using **Object-Oriented Programming (OO
 - Python 3.11
 - Turtle Graphics
 - Object-Oriented Programming (OOP)
+- File Handling (for High Score persistence)
 
 ---
 
@@ -30,7 +32,8 @@ snake_game/
 ├── main.py          # Game loop
 ├── snake.py         # Snake movement logic
 ├── food.py          # Food spawning logic
-├── scoreboard.py    # Score system & game over logic
+├── scoreboard.py    # Score system & high score logic
+├── data.txt         # Stores highest score
 
 ---
 
@@ -38,7 +41,7 @@ snake_game/
 
 1. Clone the repository:
 
-git clone https://github.com/datomumladze/Snake-game.git
+git clone https://github.com/datomumladzee/Snake-game.git
 
 2. Navigate to the project folder:
 
